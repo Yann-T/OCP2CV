@@ -6,41 +6,40 @@
         <title>Yann TEJERO</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/1e7dc229f8.js" crossorigin="anonymous"></script>
+</head>
 
-    </head>
-
-    <body>
+<body>
         <!-- Code du bloc "marge" -->
         <section id="marge">
             
             <!-- Bloc photo -->
-            <article id="photo" >
+<article id="photo" >
                 <img class="maphoto" src="images/maphoto_miniature.jpg" alt="Ma Photo">
             </article>
 
 
-            <!-- Bloc présentation mobile avec photo -->
-            <article id="presentationmobile">
+<!-- Bloc présentation mobile avec photo -->
+<article id="presentationmobile">
                 
-                <aside id="photomobile">
+<aside id="photomobile">
                     <img class="maphoto" src="images/maphoto_miniature.jpg" alt="Ma Photo">
                 </aside>
 
-                <p id="identite">
+<p id="identite">
                    <span class="nomprenom"><strong>yann</strong> tejero</span><br />
                     <em>Dévelo</em>ppeur web (apprenant)
                 </p>
 
-            </article>
+</article>
 
-            <!--Bloc Contact -->
-            <!-- Ajout d'une "class" pour les différents header de "marge" -->
-            <header class="hmarge">contact</header>
+<!--Bloc Contact -->
+<!-- Ajout d'une "class" pour les différents header de "marge" -->
+<header class="hmarge">contact</header>
 
-            <article id="contact">
+<article id="contact">
                 
                 
-                <p>
+<p>
                     Adresse<br />
                     Rochefort, France
                 </p>
@@ -62,13 +61,13 @@
                 </p>
             </article>
 
-            <!-- Bloc à propos de moi -->
-            <header class="hmarge">à propos de moi</header>
+<!-- Bloc à propos de moi -->
+<header class="hmarge">à propos de moi</header>
 
-            <article id="apropos">
+<article id="apropos">
 
                 
-                <p>
+<p>
                     Depuis le début de février, 
                     je suis en contrat service civique à l'agence Pôle Emploi de Rochefort pour accompagner les demandeurs d'emploi dans leurs démarches 
                     et les guider dans l'utilisation des outils numériques mis à disposition. 
@@ -77,41 +76,41 @@
                     j'ai décidé de saisir l'opportunité de cette formation pour me lancer dans le monde fascinant du développement web!
                 </p>
 
-            </article>
+</article>
 
-            <!-- Bloc loisirs -->
-            <header class="hmarge">loisirs</header>
+<!-- Bloc loisirs -->
+<header class="hmarge">loisirs</header>
 
-            <article id="loisirs">
+<article id="loisirs">
                                 
-                <i class="fab fa-teamspeak fa-3x" style="color: silver; border: silver 1px solid;
+<i class="fab fa-teamspeak fa-3x" style="color: silver; border: silver 1px solid;
                 border-radius: 50%; overflow: hidden;"></i>
                 <i class="fas fa-biking fa-3x" style="color: silver; border: silver 1px solid;
                 border-radius: 50%; overflow: hidden;"></i>
                 <i class="fas fa-campground fa-3x" style="color: silver; border: silver 1px solid;
                 border-radius: 50%; overflow: hidden;"></i>
 
-            </article>
+</article>
 
-        </section>
+</section>
 
-        <!-- Section du "bloc pricinpal" -->
-        <section id="blocprincipal">
+<!-- Section du "bloc pricinpal" -->
+<section id="blocprincipal">
 
-            <!-- Bloc présentation -->
-            <article id="presentation">
+<!-- Bloc présentation -->
+<article id="presentation">
                 <p>
                    <span class="nomprenom"><strong>yann</strong> tejero</span><br />
                     <em>Dévelo</em>ppeur web (apprenant)
                 </p>
             </article>
 
-            <!-- Bloc Formations -->
-            <!-- Ajout d'une classe pour les headers du bloc principal -->
-            <header class="header"><i class="fas fa-graduation-cap fa-2x" style="color: slategray;"></i><span class="titre">formations</span></header>
+<!-- Bloc Formations -->
+<!-- Ajout d'une classe pour les headers du bloc principal -->
+<header class="header"><i class="fas fa-graduation-cap fa-2x" style="color: slategray;"></i><span class="titre">formations</span></header>
             <article id="formations">
 
-                <table>
+<table>
                     <tr>
                         <td>
                             <div class="bullet">
@@ -124,19 +123,17 @@
                             </div>
                         </td>
 
-                        <td>
+<td>
                             <p class="interligne">
                             <span class="hdescription">open classrooms</span><br>
                             Developpeur Web<br />
                             </p>
-
-                            <p>
+<p>
                             Formation en ligne au métier de Développeur Web et à divers langages web.
                             </p>
                         </td>
                     </tr>
-
-                    <tr>
+<tr>
                         <td>
                             <ul>
                                 <li>
@@ -157,14 +154,13 @@
                     </tr>
                 </table>
             </article>
-
-            <!-- Bloc expériences -->
+<!-- Bloc expériences -->
             <header class="header"><i class="fas fa-briefcase fa-2x" style="color: slategray;"> </i><span class="titre">expériences</span>
             </header>
             
-            <article id="experiences">
+<article id="experiences">
 
-                <table>
+<table>
                     <tr>
                         <td>
                             <div class="bullet">
@@ -190,16 +186,16 @@
                     <tr>
                         <td>
                             
-                            <ul>
+<ul>
                                 <li>
                                     Septembre 2019 - Janvier 2020<br />
                                     Angoulins, Charente-Maritime
                                 </li>
                             </ul>
                             
-                        </td>
+</td>
 
-                        <td>
+<td>
                             <p class="interligne">
                                 <span class="hdescription">flunch</span><br/>
                                 Employé polyvalent<br />
@@ -214,16 +210,15 @@
                     <tr>
                         <td>
                             
-                            <ul>
+<ul>
                                 <li>
                                     Avril 2019 - Août 2019<br />
                                     Royaume-Uni
                                 </li>
                             </ul>
-                           
-                        </td>
+</td>
 
-                        <td>
+<td>
                             <p class="interligne">
                             <span class="hdescription">wwoof</span><br />
                             Volontaire WWOOF<br />
@@ -236,8 +231,8 @@
                 </table>
             </article>
 
-            <!-- Bloc recommendations -->
-            <header class="header"><i class="fas fa-pen fa-2x" style="color: slategray;"></i><span class="titre">recommendations</span></header>
+<!-- Bloc recommendations -->
+<header class="header"><i class="fas fa-pen fa-2x" style="color: slategray;"></i><span class="titre">recommendations</span></header>
             <article id="recommendations">
                 <table>
                     <tr>
@@ -245,12 +240,12 @@
                             MAXIME KIEMAN
                         </td>
                         
-                        <td>
+<td>
                             MAXIME KIEMAN
                         </td>
                     </tr>
                     
-                    <tr>
+<tr>
                         <td>
                             Directeur, Mon agence<br />
                             Téléphone: <br/>
