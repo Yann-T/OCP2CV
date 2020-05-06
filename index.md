@@ -2,14 +2,14 @@
 <html>
     <head>
 
-        <title>Yann TEJERO</title>
+<title>Yann TEJERO</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/1e7dc229f8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-        <!-- Code du bloc "marge" -->
-        <section id="marge">
+<!-- Code du bloc "marge" -->
+<section id="marge">
             
             <!-- Bloc photo -->
 <article id="photo" >
@@ -245,19 +245,19 @@
                     </tr>
                     
 <tr>
-                        <td>
+<td>
                             Directeur, Mon agence<br />
                             Téléphone: <br/>
                             Email:name@email.com
-                        </td>
-                        <td>
+</td>
+<td>
                             Directeur, Mon agence<br />
                             Téléphone: <br/>
                             Email:name@email.com
-                        </td>
-                    </tr>
-                </table>
-            </article>
-        </section>
-    </body>
+</td>
+</tr>
+</table>
+</article>
+</section>
+</body>
 </html>
