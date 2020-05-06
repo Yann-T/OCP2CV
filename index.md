@@ -2,7 +2,7 @@
 <html>
     <head>
 
-        <title>Yann TEJERO</title>
+<title>Yann TEJERO</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/1e7dc229f8.js" crossorigin="anonymous"></script>
 </head>
