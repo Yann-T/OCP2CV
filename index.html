@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title>Yann TEJERO</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/1e7dc229f8.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <!-- Code du bloc "marge" -->
+        <section id="marge">
+            
+            <!-- Bloc photo -->
+            <article id="photo" >
+                <img class="maphoto" src="images/maphoto_miniature.jpg" alt="Ma Photo">
+            </article>
+
+
+            <!-- Bloc présentation mobile avec photo -->
+            <article id="presentationmobile">
+                
+                <aside id="photomobile">
+                    <img class="maphoto" src="images/maphoto_miniature.jpg" alt="Ma Photo">
+                </aside>
+
+                <p id="identite">
+                   <span class="nomprenom"><strong>yann</strong> tejero</span><br />
+                    <em>Dévelo</em>ppeur web (apprenant)
+                </p>
+
+            </article>
+
+            <!--Bloc Contact -->
+            <!-- Ajout d'une "class" pour les différents header de "marge" -->
+            <header class="hmarge">contact</header>
+
+            <article id="contact">
+                
+                
+                <p>
+                    Adresse<br />
+                    Rochefort, France
+                </p>
+                <p>
+                    Téléphone<br />
+                    07.69.21.53.71
+                </p>
+                <p>
+                    Email<br />
+                    yanntejero@gmail.com
+                </p>
+                <p>
+                    Site web<br />
+                    repository github
+                </p>
+                <p>
+                    Skype<br />
+                    nay66300
+                </p>
+            </article>
+
+            <!-- Bloc à propos de moi -->
+            <header class="hmarge">à propos de moi</header>
+
+            <article id="apropos">
+
+                
+                <p>
+                    Depuis le début de février, 
+                    je suis en contrat service civique à l'agence Pôle Emploi de Rochefort pour accompagner les demandeurs d'emploi dans leurs démarches 
+                    et les guider dans l'utilisation des outils numériques mis à disposition. 
+                    Je profite de cette transition pour mettre en place ma reconversion professionnelle. 
+                    Ancien commis de cuisine passionné d'informatique, 
+                    j'ai décidé de saisir l'opportunité de cette formation pour me lancer dans le monde fascinant du développement web!
+                </p>
+
+            </article>
+
+            <!-- Bloc loisirs -->
+            <header class="hmarge">loisirs</header>
+
+            <article id="loisirs">
+                                
+                <i class="fab fa-teamspeak fa-3x" style="color: silver; border: silver 1px solid;
+                border-radius: 50%; overflow: hidden;"></i>
+                <i class="fas fa-biking fa-3x" style="color: silver; border: silver 1px solid;
+                border-radius: 50%; overflow: hidden;"></i>
+                <i class="fas fa-campground fa-3x" style="color: silver; border: silver 1px solid;
+                border-radius: 50%; overflow: hidden;"></i>
+
+            </article>
+
+        </section>
+
+        <!-- Section du "bloc pricinpal" -->
+        <section id="blocprincipal">
+
+            <!-- Bloc présentation -->
+            <article id="presentation">
+                <p>
+                   <span class="nomprenom"><strong>yann</strong> tejero</span><br />
+                    <em>Dévelo</em>ppeur web (apprenant)
+                </p>
+            </article>
+
+            <!-- Bloc Formations -->
+            <!-- Ajout d'une classe pour les headers du bloc principal -->
+            <header class="header"><i class="fas fa-graduation-cap fa-2x" style="color: slategray;"></i><span class="titre">formations</span></header>
+            <article id="formations">
+
+                <table>
+                    <tr>
+                        <td>
+                            <div class="bullet">
+                            <ul>
+                                <li>
+                                    Mars 2020 - Décembre 2020<br />&nbsp; &nbsp;
+                                      Nouvelle-Aquitaine                                    
+                                </li>
+                            </ul>
+                            </div>
+                        </td>
+
+                        <td>
+                            <p class="interligne">
+                            <span class="hdescription">open classrooms</span><br>
+                            Developpeur Web<br />
+                            </p>
+
+                            <p>
+                            Formation en ligne au métier de Développeur Web et à divers langages web.
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>
+                                    Mars 2020<br />
+                                    Bordeaux
+                                </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <p class="interligne">
+                                <span class="hdescription">pôle emploi</span><br/>
+                                Prévention et gestion des situations difficles dans la relation d'accueil<br/>
+                            </p>
+                            <p>
+                                Formation à la prévention et la gestion des situations difficiles dans la relation d'accueil pour les volontaires en service civique travaillant dans la zone libre d'accès.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </article>
+
+            <!-- Bloc expériences -->
+            <header class="header"><i class="fas fa-briefcase fa-2x" style="color: slategray;"> </i><span class="titre">expériences</span>
+            </header>
+            
+            <article id="experiences">
+
+                <table>
+                    <tr>
+                        <td>
+                            <div class="bullet">
+                            <ul>
+                                <li>
+                                    Février 2020 - Poste actuel<br />
+                                    Rochefort, Charente-Maritime
+                                </li>
+                            </ul>
+                            </div>
+                        </td>
+                        <td>
+                            <p>
+                            <span class="hdescription">pôle emploi</span><br />
+                            Volontaire Service Civique<br />
+                            </p>
+                            <p>
+                            Accompagnement des demandeurs d'emploi sur les postes numériques de la zone libre d'accès. 
+                            Assistance sur les démarches en ligne sur le site du service public.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                            <ul>
+                                <li>
+                                    Septembre 2019 - Janvier 2020<br />
+                                    Angoulins, Charente-Maritime
+                                </li>
+                            </ul>
+                            
+                        </td>
+
+                        <td>
+                            <p class="interligne">
+                                <span class="hdescription">flunch</span><br/>
+                                Employé polyvalent<br />
+                            </p>
+                            <p>
+                                Fabrication des plats cuisinés et des légumes au buffet.
+                                Gestion de la salle, encaissement des clients.
+                                Réception  et rangement des commandes.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                            <ul>
+                                <li>
+                                    Avril 2019 - Août 2019<br />
+                                    Royaume-Uni
+                                </li>
+                            </ul>
+                           
+                        </td>
+
+                        <td>
+                            <p class="interligne">
+                            <span class="hdescription">wwoof</span><br />
+                            Volontaire WWOOF<br />
+                            </p>
+                            <p>
+                            Volontaire dans des exploitations fermières. Aide dans un élevage d'alpagas. Assistance de gestion d'un camping. Divers travaux manuels.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </article>
+
+            <!-- Bloc recommendations -->
+            <header class="header"><i class="fas fa-pen fa-2x" style="color: slategray;"></i><span class="titre">recommendations</span></header>
+            <article id="recommendations">
+                <table>
+                    <tr>
+                        <td>
+                            MAXIME KIEMAN
+                        </td>
+                        
+                        <td>
+                            MAXIME KIEMAN
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            Directeur, Mon agence<br />
+                            Téléphone: <br/>
+                            Email:name@email.com
+                        </td>
+                        <td>
+                            Directeur, Mon agence<br />
+                            Téléphone: <br/>
+                            Email:name@email.com
+                        </td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+    </body>
+</html>

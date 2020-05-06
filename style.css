@@ -1,0 +1,235 @@
+/*Font utilisée pour le CV*/	
+@font-face 
+{
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+          url('fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+          url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+          url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+          url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+        font-weight: normal;
+    font-style: normal;
+}
+
+/* Mise en page global du site */
+body
+{
+
+    font-family: 'open_sansregular',Arial, Helvetica, 'sans-serif';
+    height: 1680px;
+    width: 1190px;
+    margin: auto;
+    display: flex;
+    background-color: #37474F;
+    font-size: 1.2em;
+
+}
+
+/* Mise en page de la marge */
+#marge
+{
+    width: 50%;
+    text-align: justify;
+    background-color: slategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/* Format des headers de la marge */
+.hmarge
+{
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: steelblue;
+    background-color: silver;
+    font-size: 1.7em;
+}
+
+/* Modification et centrage photo */
+#photo
+{
+    text-align: center;
+}
+.maphoto
+{
+    height: 190px;
+    width: 180px;
+    border-radius: 75%;
+    border: solid 2px #546E7A;
+}
+
+/* Ajout d'un padding pour plus de lisibilité */
+#contact, #apropos, #loisirs
+{
+    padding: 0 10%;
+}
+
+/* Mise en page des logos loisirs */
+#loisirs
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+#apropos
+{
+    height: 45%;
+}
+
+/* Mise en page du bloc principal */
+#blocprincipal
+{
+    padding: 5%;
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Mise en page du bloc presentation */
+#presentation
+{
+    font-size: 1.6em;
+}
+
+.nomprenom
+{
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+strong
+{
+    color: slategray;
+}
+em
+{
+    text-decoration: underline slategray;
+    font-style: normal;
+}
+
+/* Mise en page des headers du bloc principal */
+.header
+{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    border-bottom: solid slategray 2px;
+    font-weight: bold;
+}
+.titre
+{
+    margin-left: 5%;
+}
+
+/* Mise en page des bloc formation, experience et recommendations */
+
+.hdescription
+{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+td
+{
+    vertical-align: top;
+    width: 1%;
+}
+
+.interligne
+{
+    line-height: 30px;
+}
+
+#presentationmobile
+{
+    display: none;
+}
+
+
+#recommendations
+{
+    padding-top: 5%;
+}
+
+ul
+{
+    list-style: none;
+   
+}
+
+ul li::before
+{
+    content: "\2022";
+    color: #546E7A;
+    font-weight: bold;
+}
+
+.bullet ul
+{
+    list-style: none;
+}
+
+.bullet ul li::before
+{
+    content: "⦿" ;
+    color: #546E7A;
+}
+
+
+
+
+
+/* Règles CSS pour pour les petits écrans/mobiles */
+@media screen and (max-width: 980px)
+{
+    body
+    {
+        
+        height: auto;
+        width: auto;
+        max-width: 980px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    #marge
+    {
+        padding: 2% 0;
+        width: auto;
+        background-color: whitesmoke;
+    }
+
+    #blocprincipal
+    {
+        text-align: justify;
+        width: auto;
+        padding-right: 5%;
+    }
+
+    #presentation, #photo
+    {
+        display: none
+    }
+
+    #presentationmobile
+    {
+        display: flex;
+        margin-left: 5%; 
+        
+    }
+
+    #identite
+    {
+        margin: 0 5%;
+        align-self: center;
+    }
+
+    #loisirs
+    {
+        padding-top: 5%;
+    }
+}
