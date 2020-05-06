@@ -8,8 +8,8 @@
 </head>
 
 <body>
-        <!-- Code du bloc "marge" -->
-        <section id="marge">
+<!-- Code du bloc "marge" -->
+<section id="marge">
             
             <!-- Bloc photo -->
 <article id="photo" >
@@ -245,19 +245,19 @@
                     </tr>
                     
 <tr>
-                        <td>
+<td>
                             Directeur, Mon agence<br />
                             Téléphone: <br/>
                             Email:name@email.com
-                        </td>
-                        <td>
+</td>
+<td>
                             Directeur, Mon agence<br />
                             Téléphone: <br/>
                             Email:name@email.com
-                        </td>
-                    </tr>
-                </table>
-            </article>
-        </section>
-    </body>
+</td>
+</tr>
+</table>
+</article>
+</section>
+</body>
 </html>
