@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
+<head>
 
 <title>Yann TEJERO</title>
         <link rel="stylesheet" href="style.css">
