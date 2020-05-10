@@ -31,7 +31,7 @@ body
 {
     width: 50%;
     text-align: justify;
-    background-color: red;
+    background-color:slategray;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
